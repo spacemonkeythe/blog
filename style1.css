@@ -1,0 +1,127 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	background-image: url(Slike/stripe.png);
+	background-repeat: repeat;
+}
+
+#wrapper {
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+}
+
+header {
+	height: 150px;
+	background-color: #56167A;
+	margin-bottom: 4px;
+	border-radius: 5px;
+	box-shadow: 7px 7px 7px #CCD8F0;
+}
+
+#logo {
+	height: 120px;
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-right: 30px;
+}
+
+#baner{
+	height: 100px;
+	width: 600px;
+}
+
+header ul {
+	float:right;
+	margin-top: 10px;
+}
+
+header ul li{
+	display: inline;
+	padding-right: 35px;
+}
+
+#login {
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+header a {
+	text-decoration: none;
+	color: #DAE2E3;
+	font-size: 120%;
+}
+
+header a:hover{
+	color: #D6A2F5;
+}
+
+
+/*Stilovi za section*/
+
+section {
+	background-color: #F2F2F2;
+	width: 690px;
+	float: left;
+	margin-top: 4px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 7px 7px 7px #CCD8F0;
+}
+
+.content {
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+section img {
+	height: 120px;
+	width: 100px;
+	float: left;
+	margin-right: 30px;
+}
+
+section h1 {
+	margin-left: 80px;
+	font-size: 200%;
+}
+
+section h2, h4 {
+	margin: 3px;
+}
+
+section ul li p {
+
+}
+
+.slike {
+	height : 130px;
+}
+
+#autori{
+	clear: both;
+}
+
+
+/*Stilovi za aside*/
+
+aside {
+	background-color: #E3C1F7;
+	width: 290px;
+	float: right;
+	margin-top: 5px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 7px 7px 7px #CCD8F0;
+}
+
+aside div{
+	margin-left: 20px;
+	margin-right: 20px;
+}
